@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputAttributes</title>
+</head>
+<body>
+
+    <!-- 
+        input inputAttributes
+        ---------------------
+         name         value      placeholder    readonly   disabled   autofocus
+         minlength    maxlength  size           required   list       step
+         autocomplete
+    -->
+    <form action="">
+       <input type="text" name="UserName" id="" placeholder="First Name" autofocus>
+       <br></br>
+       <input type="text" name="" id="" placeholder="Last Name">
+       <br><br>
+       <input type="text" name="" id="" value="Ahmad">
+       <br><br>
+       <input type="text" name="camppusName" id="" value="Faizanit" readonly >
+       <br><br>
+       <input type="text" name="campId" id=""  disabled value="FAIZ475">
+       <br><br>
+       <input type="text" name="pwd" id="" minlength="3" maxlength="10" size="6" autocomplete="off">
+       <br></br>
+       <input type="email" name="email" id="" required autocomplete="off">
+       <br></br>
+       <input type="text" name="" id="" list="lang">
+       <datalist id="lang">
+        <option value="HTML"></option>
+        <option value="CSS"></option>
+        <option value="js"></option>
+        <option value="javascript"></option>
+        <option value="Hyper text markup language"></option>
+       </datalist>
+       <br><br>
+       <input type="number" value="1"  step="3">
+       <br><br>
+       <input type="text" name="courses" id="">
+       <select name="courses" id="">
+        <option value="java"></option>
+        <option value="php"></option>
+        <option value="react"></option>
+        <option value="css"></option>
+        <option value="html"></option>
+       </select>
+       <button>submit</button>
+    </form>
+
+
+
+</body>
+</html>
